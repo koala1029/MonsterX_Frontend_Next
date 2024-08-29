@@ -271,18 +271,18 @@ export default function Page({ params }: { params: { slug: string } }) {
                                     <button className="bg-[#DDFE47] hover:bg-[#c0e83e] text-black font-bold py-3 px-4 rounded w-full mt-2" onClick={handleBuy}>
                                         Buy Now
                                     </button>
-                                    <BaseDialog
+                                    {/* <BaseDialog
                                         trigger={
                                             <BaseButton 
                                                 title="Buy Now" 
                                                 variant="primary" 
-                                                onClick={() => { /* Handle click event */ }} 
+                                                onClick={() => {  }} 
                                             />
                                         }
                                         className="bg-black max-h-[80%] overflow-y-auto overflow-x-hidden"
                                     >
                                         <BuyModal price={(nftData as any).price} />
-                                    </BaseDialog>
+                                    </BaseDialog> */}
 
 
                                 <BaseDialog
